@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <title>Portfolio_website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+
+      body {
+        background-color: rgb(7, 7, 100);
+        color: white;
+        font-family: "Poppins", sans-serif, bold;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 95px;
+        background-color: rgb(41, 41, 151);
+      }
+      nav ul {
+        display: flex;
+        justify-content: space-around;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0px 23px;
+      }
+      nav ul li a {
+        color: white;
+        text-decoration: none;
+      }
+      nav ul li a:hover {
+        color: rgb(124, 135, 235);
+      }
+      .left {
+        font-size: 2rem;
+      }
+      .firstsection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 40px 0px;
+      }
+      .firstsection > div {
+        width: 40%;
+      }
+      .leftsection {
+        font-size: 3rem;
+      }
+
+      .rightsection img {
+        width: 80%;
+      }
+
+      .paint {
+        color: rgb(218, 165, 85);
+      }
+      #element {
+        color: rgb(167, 85, 218);
+      }
+      main hr {
+        border: 0;
+        background-color: rgb(134, 134, 210);
+        height: 1.2px;
+        margin: 40px 0px;
+      }
+      .secondsection h1 {
+        font-size: 2.1rem;
+      }
+      .text-gray {
+        color: rgb(202, 189, 189);
+        opacity: 50%;
+      }
+      .secondsection .box {
+        background: white;
+        width: 83vw;
+        height: 1.2px;
+        margin: 40px 0px;
+        display: flex;
+      }
+
+      .secondsection {
+        max-width: 145vw;
+        margin: 11.02vh;
+        
+      }
+      .secondsection .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0px 200px;
+      }
+
+      .image-top1 {
+        top: -45px;
+        left: -24px;
+        position: relative;
+        width: 50px;
+      }
+
+      .image-top2 {
+        top: -50px;
+        left: -15px;
+        position: relative;
+        width: 30px;
+      }
+
+      .image-top3 {
+        top: -56px;
+        left: -24px;
+        position: relative;
+        width: 50px;
+      }
+
+      .vertical-title {
+        position: relative;
+        top: 45px;
+        width: 150px;
+      }
+      .vertical-desc {
+        position: relative;
+        top: 70px;
+        width: 150px;
+        color: rgb(173, 164, 164);
+        font-size: 11px;
+      }
+      footer{
+        background-color: rgb(221, 221, 249);
+        height: 233px;
+
+      }
+      .footer {
+        display: flex;
+        margin: 220px 103px;
+        padding: 35px 50px;
+        color: rgb(19, 18, 18);
+        justify-content: space-around;  
+
+      }
+      .footer ul{
+        list-style: none;
+      }
+      .footer >div {
+        width: 220px;
+      }
+      footer .footer-rights{
+        text-align: center;
+        
+        
+    
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Nikhil's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Projects</a></li>
+            <li><a href="">Contact me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          <div>Hi my name is <span class="paint">Nikhil</span></div>
+          <div>and i am a</div>
+          <span id="element"></span>
+          <div>by hobby</div>
+        </div>
+        <div class="rightsection">
+          <img src="Prog.png" alt="turn on your internet" />
+        </div>
+      </section>
+      <hr />
+
+      <section class="secondsection">
+        <span class="text-gray">What i have done so far </span>
+        <h1>Work Experience</h1>
+        <div class="box">
+
+
+          <div class="vertical">
+            <img class="image-top1" src="./html.png" alt="" />
+            <div class="vertical-title">HTML</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Obcaecati, iste!</div>
+          </div>
+
+
+          <div class="vertical">
+            <img class="image-top2" src="./css.png" alt="" />
+            <div class="vertical-title">CSS</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Quibusdam, velit?</div>
+          </div>
+
+
+          <div class="vertical">
+            <img class="image-top3" src="./js.png" alt="" />
+            <div class="vertical-title">Javascript</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis,
+              dolorum. </div>
+          </div>
+          
+          
+      </section>
+    </main>
+    <footer>
+
+      <div class="footer">
+        <div class="footer-first"><h3>Nikhil's Developer Portfolio</h3></div>
+        <div class="footer-second"><ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Services</li>
+          <li>Contact me</li>
+        </ul></div>
+        <div class="footer-third"><ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Services</li>
+          <li>Contact me</li>
+        </ul></div>
+        <div class="footer-fourth"><ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Services</li>
+          <li>Contact me</li>
+        </ul></div>
+        
+        <div class="footer-rights">www.nikhilportfolio.com|All rights reserved|</div>
+      </div>
+    </footer>
+      <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "Video Editor"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
